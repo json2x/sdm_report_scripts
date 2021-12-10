@@ -1,0 +1,23 @@
+
+Run Datetime: 2020-10-06 23:59:03.935955
+-------------------------
+SDM Reports
+SDM TT WITH FRT NO COO
+-------------------------
+Connecting to SDM Database...
+Connection Successful!
+Querying database and storing result to dataframe...[OK]
+Adding as of date...[OK]
+Writing DataFrame to Excel...[OK]
+Sending File to SMBNOC ftp directory...
+
+Preparing to send file to NOC SDM reports repository.
+     /home/jcm/projects/SDMReports/SDM-TT-WITH-FRT-NO-COO.xlsx
+Connecting to host: 10.150.20.104 ... [OK]
+Transferring /home/jcm/projects/SDMReports/SDM-TT-WITH-FRT-NO-COO.xlsx to server... [OK]
+
+-- FILE SENT ---
+
+Storing data to OVIM Database.[OK]
+0:01:17.574301
+<<<<< End of Script >>>>>

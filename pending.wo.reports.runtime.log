@@ -1,0 +1,19 @@
+
+Run Datetime: 2021-12-10 00:00:02.679101
+-------------------------
+SDM Reports
+Pending/Running TT-WOs
+-------------------------
+Connecting to SDM Database...
+Connection Successful!
+Writing DataFrame to CSV.
+
+Preparing to send file to Proj USA Datahub dump directory.
+     /home/jcm/projects/SDMReports/output.csv
+Connecting to host: 10.150.20.104 ... [OK]
+Transferring /home/jcm/projects/SDMReports/output.csv to server... [OK]
+
+-- FILE SENT ---
+
+0:00:41.172744
+<<<<< End of Script >>>>>

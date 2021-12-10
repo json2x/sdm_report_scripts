@@ -1,0 +1,52 @@
+
+Run Datetime: 2021-12-10 05:10:02.841190
+-------------------------
+SDM Reports
+Pending/Running TroubleTickets
+-------------------------
+Connecting to SDM Database...[OK]
+Connection Successful!
+
+Querying and Creating TT Dataframe...[OK]
+
+Cleansing and Prepping Trouble Ticket dataframe
+Prepping/Cleansing TT Dataframe...[Complete]
+
+              TicketID  ...                                            Remarks
+0    TT-20190322-00892  ...                                               None
+1    TT-20190213-00258  ...                                               None
+2    TT-20191103-00803  ...                                               None
+3    TT-20200102-00124  ...  TX: SA. Monitored Comms Fail at N1674 facing 5...
+4    TT-20200509-00284  ...          unlocked/ftk. endorsed to A. Sacabin/WNFS
+..                 ...  ...                                                ...
+482  TT-20211208-01353  ...  Down WIFI:\nGTSCA166RUAO001\nGTSCA166RUAO002\n...
+483  TT-20211209-01546  ...                                               None
+484  TT-20211208-01426  ...  Endorsed to WFS for checking.\n\nOFFLINE | FUL...
+485  TT-20211209-00269  ...                                               None
+486  TT-20211210-00255  ...  OFFLINE | FULL OUTAGE\n\nCAVM-PANGIL_CC_S2/SH0...
+
+[487 rows x 19 columns]
+Technology  2G  3G FD-LTE TD-LTE WIFI  All
+Area                                      
+MIN         26  30     56          11  123
+MM           9   6     11      1   13   40
+NL          15   7     12           7   41
+SL           8   8      7         146  169
+VIS         17  16     18          12   63
+All         75  67    104      1  189  436
+*** Preparing 1st Sheet ***
+Creating reshaped dataframes.
+
+Including Raw Data to output file...[OK]
+
+Sending file via FTP...
+
+Preparing to send file to Proj USA Datahub dump directory.
+     /home/jcm/projects/SDMReports/REPORT_TEMPLATE/AUTO_TT_REPORT.xlsx
+Connecting to host: 10.150.20.104 ... [OK]
+Transferring /home/jcm/projects/SDMReports/REPORT_TEMPLATE/AUTO_TT_REPORT.xlsx to server... [OK]
+
+-- FILE SENT ---
+
+0:00:13.071873
+<<<<< End of Script >>>>>

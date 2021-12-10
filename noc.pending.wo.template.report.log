@@ -1,0 +1,257 @@
+
+Run Datetime: 2021-12-10 05:00:03.407797
+-------------------------
+SDM Reports
+Pending/Running TT-WOs
+-------------------------
+Connecting to SDM Database...[OK]
+Connection Successful!
+
+Querying and Creating TT-WO Dataframe...[OK]
+Querying and Creating User Default Group Dataframe...[OK]
+
+Cleansing and Prepping TT-WO dataframe
+Iterating through TT-WO Dataframe...[Complete]
+
+*** Preparing 1st Sheet ***
+Creating reshaped dataframes.
+Technology  2G  3G 5G Canopy FD-LTE WIFI  All
+Area                                         
+MIN         38  16         1     11   15   81
+MM           1   1                2   16   20
+NL           7   3                4   13   27
+SL           7   5  1             3  177  193
+VIS          9   1                     5   15
+All         62  26  1      1     20  226  336
+
+Unique SiteID DF
+    index        WO_TicketID  ... WO_CreateYear   Aging (Hrs)
+0       0  WO-20211207-00687  ...          2021    905.000000
+1       1  WO-20200803-03211  ...          2020  11842.366667
+2       2  WO-20201112-00050  ...          2020   9434.216667
+3       3  WO-20201020-02482  ...          2020   9965.900000
+4       4  WO-20201029-02674  ...          2020   9754.000000
+..    ...                ...  ...           ...           ...
+86     86  WO-20211203-01839  ...          2021    160.516667
+87     87  WO-20211207-02713  ...          2021     55.100000
+88     88  WO-20200607-00962  ...          2020  13562.933333
+89     89  WO-20200619-02583  ...          2020  12920.033333
+90     90  WO-20200627-01133  ...          2020  12729.000000
+
+[91 rows x 30 columns]
+
+            Aging (Hrs)
+Workgroup              
+BUILD      11458.350000
+FFS           55.333333
+NOC           64.525000
+TSC           31.066667
+WFS          385.170035
+All         1222.390140
+
+WO_Status  running  All
+Workgroup              
+BUILD            7    7
+All              7    7
+
+Aging Grp 4Hrs-24Hrs <4Hrs >24Hrs  All
+Workgroup                             
+FFS                             1    1
+NOC                             2    2
+TSC                             1    1
+WFS               29    15     36   80
+All               29    15     40   84
+
+*** 1st Sheet Complete ***
+
+*** Preparing 2nd Sheet ***
+Creating reshaped dataframes.
+All Pending data
+WO_Status               running  All
+Service Affecting Type              
+PSA                         588  588
+SA                          337  337
+All                         925  925
+
+WO_Status               running      All
+Service Affecting Type                  
+PSA                     1878.61  1878.61
+SA                      689.973  689.973
+All                     1445.56  1445.56
+
+Aging Grp               4Hrs-24Hrs  <4Hrs  >24Hrs  All
+Service Affecting Type                                
+PSA                             68     14     506  588
+SA                              55     18     264  337
+All                            123     32     770  925
+
+WO_BusinessStatus      EscalatedtoVendor New  ...  WIP  All
+Service Affecting Type                        ...          
+PSA                                   65   2  ...  337  588
+SA                                    45      ...   94  337
+All                                  110   2  ...  431  925
+
+[3 rows x 7 columns]
+
+With FRT data
+WO_Status               running  All
+Service Affecting Type              
+PSA                         125  125
+SA                           88   88
+All                         213  213
+
+WO_Status               running      All
+Service Affecting Type                  
+PSA                     2254.77  2254.77
+SA                      1412.55  1412.55
+All                     1906.81  1906.81
+
+
+----------------------
+
+WO_Status                         running  All
+Workgroup Service Affecting Type              
+BUILD     PSA                          30   30
+          SA                            8    8
+CSOG      PSA                           1    1
+FFS       PSA                          35   35
+          SA                            1    1
+FNAS      PSA                           3    3
+FSMG      PSA                           1    1
+NOC       PSA                           9    9
+          SA                            4    4
+NOC_BIS   PSA                           1    1
+NOC_CNCC  PSA                           1    1
+NPE       PSA                          67   67
+          SA                            1    1
+OPM       PSA                           9    9
+OVIM      PSA                           8    8
+SPM       PSA                           3    3
+TSC       PSA                          23   23
+          SA                            1    1
+WFS       PSA                         381  381
+          SA                          319  319
+All                                   906  906
+WO_Status                         running      All
+Workgroup Service Affecting Type                  
+BUILD     PSA                     4950.55  4950.55
+          SA                      11721.4  11721.4
+CSOG      PSA                     32.5333  32.5333
+FFS       PSA                     1706.92  1706.92
+          SA                      55.3333  55.3333
+FNAS      PSA                     80.9444  80.9444
+FSMG      PSA                     4770.57  4770.57
+NOC       PSA                     296.109  296.109
+          SA                      165.092  165.092
+NOC_BIS   PSA                     10891.2  10891.2
+NOC_CNCC  PSA                      105.85   105.85
+NPE       PSA                     4996.43  4996.43
+          SA                      5934.18  5934.18
+OPM       PSA                     4503.62  4503.62
+OVIM      PSA                     318.829  318.829
+SPM       PSA                     1406.55  1406.55
+TSC       PSA                     1757.87  1757.87
+          SA                      31.0667  31.0667
+WFS       PSA                     1101.34  1101.34
+          SA                      402.537  402.537
+All                                1432.6   1432.6
+Aging Grp                        4Hrs-24Hrs <4Hrs >24Hrs  All
+Workgroup Service Affecting Type                             
+BUILD     PSA                                         30   30
+          SA                                           8    8
+CSOG      PSA                                          1    1
+FFS       PSA                             3           32   35
+          SA                                           1    1
+FNAS      PSA                                          3    3
+FSMG      PSA                                          1    1
+NOC       PSA                                          9    9
+          SA                                           4    4
+NOC_BIS   PSA                                          1    1
+NOC_CNCC  PSA                                          1    1
+NPE       PSA                                         67   67
+          SA                                           1    1
+OPM       PSA                                          9    9
+OVIM      PSA                             1            7    8
+SPM       PSA                                          3    3
+TSC       PSA                             3           20   23
+          SA                                           1    1
+WFS       PSA                            61    14    306  381
+          SA                             55    18    246  319
+All                                     123    32    751  906
+WO_BusinessStatus                EscalatedtoVendor New  ...  WIP  All
+Workgroup Service Affecting Type                        ...          
+BUILD     PSA                                           ...   30   30
+          SA                                            ...    8    8
+CSOG      PSA                                           ...         1
+FFS       PSA                                           ...   34   35
+          SA                                            ...    1    1
+FNAS      PSA                                           ...    3    3
+FSMG      PSA                                           ...    1    1
+NOC       PSA                                        1  ...    2    9
+          SA                                            ...    1    4
+NOC_BIS   PSA                                           ...         1
+NOC_CNCC  PSA                                    1      ...         1
+NPE       PSA                                           ...   67   67
+          SA                                            ...    1    1
+OPM       PSA                                           ...    7    9
+OVIM      PSA                                           ...    6    8
+SPM       PSA                                           ...    3    3
+TSC       PSA                                   13      ...    8   23
+          SA                                            ...    1    1
+WFS       PSA                                   51      ...  165  381
+          SA                                    45      ...   79  319
+All                                            110   1  ...  417  906
+
+[21 rows x 7 columns]
+WO_Status                         running  All
+Workgroup Service Affecting Type              
+BUILD     PSA                           9    9
+          SA                            6    6
+FFS       PSA                          22   22
+          SA                            1    1
+FNAS      PSA                           1    1
+FSMG      PSA                           1    1
+NOC       PSA                           1    1
+          SA                            2    2
+NOC_CNCC  PSA                           1    1
+NPE       PSA                          18   18
+OPM       PSA                           5    5
+SPM       PSA                           1    1
+TSC       PSA                           4    4
+          SA                            1    1
+WFS       PSA                          50   50
+          SA                           76   76
+All                                   199  199
+WO_Status                         running      All
+Workgroup Service Affecting Type                  
+BUILD     PSA                     5999.41  5999.41
+          SA                      11107.6  11107.6
+FFS       PSA                     1463.01  1463.01
+          SA                      55.3333  55.3333
+FNAS      PSA                     105.317  105.317
+FSMG      PSA                     4770.57  4770.57
+NOC       PSA                      368.55   368.55
+          SA                       64.525   64.525
+NOC_CNCC  PSA                      105.85   105.85
+NPE       PSA                     3872.41  3872.41
+OPM       PSA                      3886.1   3886.1
+SPM       PSA                     404.917  404.917
+TSC       PSA                      1170.5   1170.5
+          SA                      31.0667  31.0667
+WFS       PSA                     1286.19  1286.19
+          SA                      720.504  720.504
+All                               1867.74  1867.74
+[Complete]
+Including Raw Data to output file...[OK]
+
+Sending file via FTP...
+
+Preparing to send file to Proj USA Datahub dump directory.
+     /home/jcm/projects/SDMReports/REPORT_TEMPLATE/AUTO_TTWO_REPORT.xlsx
+Connecting to host: 10.150.20.104 ... [OK]
+Transferring /home/jcm/projects/SDMReports/REPORT_TEMPLATE/AUTO_TTWO_REPORT.xlsx to server... [OK]
+
+-- FILE SENT ---
+
+0:00:36.806475
+<<<<< End of Script >>>>>

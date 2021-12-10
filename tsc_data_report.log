@@ -1,0 +1,31 @@
+
+Run Datetime: 2021-12-10 06:00:02.394903
+-------------------------
+SDM Reports
+TSC-Transport Data Report
+-------------------------
+Connecting to SDM Database...
+Connection Successful!
+Extracting CR_WO_Handled_DAR2 data into dataframe...[OK] (73 rows returned.)
+Extracting CR_Handled_DAR2 data into dataframe...[OK] (67 rows returned.)
+Extracting CR_WO_Accepted_DAR2 data into dataframe...[OK] (118 rows returned.)
+Extracting PDT-TT-SQDT_NEW_DAR2 data into dataframe...[OK] (1 rows returned.)
+
+Extracting PENDING_TT-PDT-SDT-SQDT_WO data into dataframe...[OK] (4 rows returned.)
+Pending WO Escalation Df: (10 rows returned.)
+
+Extracting RUNNING_SDT data into dataframe...[OK] (0 rows returned.)
+
+
+Writing dataframes into an excel file.
+cr_wo_handled to Sheet CR_WO_Handled_DAR2[OK]
+cr_handled to Sheet CR_Handled_DAR2[OK]
+cr_wo_accepted to Sheet CR_WO_Accepted_DAR2[OK]
+tsc_wo to Sheet PDT_TT_SQDT_NEW_DAR2[OK]
+tsc_wo to Sheet PENDING_TT_PDT_SDT_SQDT_WO[OK]
+sdt_running to Sheet RUNNING_SDT[OK]
+escalationDf to Sheet ESCALATION-TIME_TT_PDT_SDT_SQDT_WO[OK]
+File saved to /home/jcm/projects/SDMReports/OUTPUT_REPORT/TSC_Data_Report.xlsx
+Moving file to /home/jcm/mnt/TX_FILES/TXREPORTS/TSC_Data_Report_20211210.xlsx...[OK]
+0:07:35.275054
+<<<<< End of Script >>>>>

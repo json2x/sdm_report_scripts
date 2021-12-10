@@ -1,0 +1,40 @@
+
+Run Datetime: 2021-12-10 05:00:03.409236
+-------------------------
+SDM Reports
+NOC SDM TroubleTickets
+-------------------------
+Connecting to SDM Database...[OK]
+Connection Successful!
+
+Querying and Creating TT Dataframe...[OK]
+
+Cleansing and Prepping Trouble Ticket dataframe
+Prepping/Cleansing TT Dataframe...[Complete]
+
+          ParentTicketID  ...                                            Remarks
+0                   None  ...      System auto submit FRT apon receiving from FM
+1                   None  ...      System auto submit FRT apon receiving from FM
+2                   None  ...                                               None
+3                   None  ...                                               None
+4                   None  ...                                               None
+...                  ...  ...                                                ...
+28467               None  ...                                            invalid
+28468               None  ...                                            ongoing
+28469               None  ...                                               None
+28470  TT-20211210-00292  ...                                               None
+28471               None  ...  NOC-Tx: Monitored BD_STATUS at ODU43 of Huawei...
+
+[28472 rows x 27 columns]
+Writing dataframe to xlxs file...[OK]
+Sending file via FTP...
+
+Preparing to send file to Proj USA Datahub dump directory.
+     /home/jcm/projects/SDMReports/OUTPUT_REPORT/NOC_TT_Reports.xlsx
+Connecting to host: 10.150.20.104 ... [OK]
+Transferring /home/jcm/projects/SDMReports/OUTPUT_REPORT/NOC_TT_Reports.xlsx to server... [OK]
+
+-- FILE SENT ---
+
+0:02:03.237101
+<<<<< End of Script >>>>>

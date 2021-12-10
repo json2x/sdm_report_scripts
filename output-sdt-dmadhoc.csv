@@ -1,0 +1,262 @@
+ORDERID,CREATETITLE,SERVICESTATUS,PROCESSSTATUS,CREATETIME,LASTUPDATETIME,CLOSETIME,DETAILS,SUBPROCESS_WO,CREATEASSIGNTO,TRANSFERTO,CURRENTPROCESSOR,LASTOPERATOR,ORIGINATOR,CATEGORY,SUBCATEGORY,SUPLEMENTARYINFO,RESOLVESOLUTION,CLOSEDESCRIPTION,REMARKS
+SDT-20200703-00624, |  Requests | Others |  | ,BusinessStatusCompleted,completed,2020-07-03 14:21:35,2020-08-05 15:45:33,2020-08-05 15:45:33,"Hi Partners, 
+Requesting for your assistance please for checking. Based on logs checking  observed that some of the failures in MM are from Visayas sites. Please see attached FYR,",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Princess Dainne F Dahilig,Princess Dainne F Dahilig,,Others60_01_01,Topology-related,"This could be caused by two scenarios. Either due to DNS, which is a shared resource, traffic are sometimes routed to other areas for processing or due to probing issue. As the util of the probes in VISMIN are all at critically high levels, some traffic are routed to other probes in other areas that could process them.","This could be caused by two scenarios. Either due to DNS, which is a shared resource, traffic are sometimes routed to other areas for processing or due to probing issue. As the util of the probes in VISMIN are all at critically high levels, some traffic are routed to other probes in other areas that could process them.",For handling by CEM
+SDT-20200703-01344, |  Others |  |  | ,BusinessStatusCompleted,completed,2020-07-03 18:19:59,2020-07-29 09:25:17,2020-07-29 09:25:15,"Hi OVIM Partners,
+
+May we request for your usual assistance please on validation of the monitored increase in WEB Page Response Delay(ms) of nm1UGW_4G. Based on extracted data from CEM multi-dim, it started last June 29 around 2200H with delta of +66ms ( vs June22 ao 2200H for nm1UGW01). Further increase was observed starting last June 30. Also, with monitored increase in First GET Requests(times).
+
+Aside from WEB Page Response Delay(ms), also observed slight increase in WEB Server Side Round Trip Time(ms) of NMvUGWs. This started last June 29 as well.
+
+With these, may we request for your validation as well if this could be related to USA CEM SEP Version Upgrade last June 28x29 with CR-20200626-00205. Also, may we know the effect of the said activity particularly for NMvUGWs.
+
+Please see attachments for your reference.
+
+Thank you.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Grethel Marrie Aceron Giray,Grethel Marrie Aceron Giray,,,Please see remarks. c/o Rickie Santiago,"Please note that we had an activity at NM1 last June 29x30. This activity was the cutover to include the Pivot Ph3 traffic in the NM1 probe collection. With this, the utilization of the probe at NM1 rose up to 123% and as high as 148% during peak hour. Hence, we are currently experiencing significant packet loss at NM1 probe which then enables the below increase in WEB Page Response Delay and increase in First GET Requests due to probe overloading. To resolve this, we will need to purchase additional equipment to increase the capacity of the probe since it is already at maximum board configuration. Project ESA, spearheaded by Planning & Engineering, will provide said equipment.","Please note that we had an activity at NM1 last June 29x30. This activity was the cutover to include the Pivot Ph3 traffic in the NM1 probe collection. With this, the utilization of the probe at NM1 rose up to 123% and as high as 148% during peak hour. Hence, we are currently experiencing significant packet loss at NM1 probe which then enables the below increase in WEB Page Response Delay and increase in First GET Requests due to probe overloading. To resolve this, we will need to purchase additional equipment to increase the capacity of the probe since it is already at maximum board configuration. Project ESA, spearheaded by Planning & Engineering, will provide said equipment.",CEM Issue. For your assistance
+SDT-20200704-00938, |  Requests | Others |  | ,Transferred,running,2020-07-04 15:38:42,2020-08-06 12:10:48,,"Hi partners 
+Requesting for your assistance please no data in CEM for the following City in Palawan. 
+
+Aborlan 3G started 03/27
+3G only started 06/20 or 06/23
+Araceli
+Brooke Point
+Dumaran 
+Narra
+Quezon 
+Rizal 
+San Vicente 
+Sofronio 
+Taytay
+
+Please see attached FYR. Thank you",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,OVIM_NOM_USA_CEM,Efreim Jude Pineda,Princess Dainne F Dahilig,,Others60_01_01,,,,For handling by CEM. 
+SDT-20200706-00088, |  Requests | Data Integrity | Missing Hours | ,BusinessStatusResovled,running,2020-07-06 08:34:53,2020-07-09 14:57:13,,Missing Baremetal and Pivot Data in USA PM for July 5 on all nodes @ 2300H - present.,,OVIM DM ADHOC,OVIM_NOM_USA_OSS,BIANCA CAMILLE GAYOSO VASAYA;SOC_NSA_DM,Juan Paulo Medina,BIANCA CAMILLE GAYOSO VASAYA,,Data_Integrity59_01_01,resolved,already ok,,For handling by USA
+SDT-20200706-00156, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-07-06 09:27:53,2020-07-07 17:53:49,,"No data (Cell count/voice traffic/QoS) for 2G last July 5,2020",,OVIM DM ADHOC,,Jahzeel Jane Itum Paring;SOC_NSA_DM,Efreim Jude Pineda,Jahzeel Jane Itum Paring,,No_data,No data was caused by PM overload. ,,,
+SDT-20200706-00189, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-07-06 09:45:02,2020-07-09 14:45:16,,"Hello All,  As of July 5 No Data Output/Stats for 3G and 4G Tech. For your Assistance please.",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Erika Allyssa  Centeno;SOC_NSA_DM,Juan Paulo Medina,Erika Allyssa  Centeno,,No_data,resolved,already ok,,For handling by USA
+SDT-20200706-00701, |  Complaint |  |  | ,BusinessStatusCompleted,completed,2020-07-06 14:45:46,2020-08-18 11:33:09,2020-08-18 11:33:07,"Incomplete extracted data on UNIBI > CR Monthly Report (June 2020). SDM CR Advanced Query=6,828 vs. UNIBI CR=6,561.",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,,Lyra Pe?acerrada Abijan,Lyra Pe?acerrada Abijan,,,resolved,Already fixed ,Resolved,For handling by USA
+SDT-20200706-00869, |  Complaint |  |  | ,BusinessStatusCompleted,completed,2020-07-06 16:04:02,2020-08-18 11:36:13,2020-08-18 11:36:11,CR-20200626-00532 doesn?t have values on Total Risk Score and Approval Required by fields.,,OVIM DM ADHOC,OVIM_NOM_USA_OSS,,Lyra Pe?acerrada Abijan,Lyra Pe?acerrada Abijan,,,resolved,resolved,Resolved,For handling by USA
+SDT-20200706-00965, |  Requests | Data Integrity |  | ,BusinessStatusResovled,running,2020-07-06 17:04:06,2020-07-08 13:56:39,,"May we request for your assistance re missing stats/incomplete data logs for ATS report on PM which started Jun26 0900H on-wards on the following indicator names
+
+Indicator Names
+MO Short Message Success Rate(%)
+MT Short Message Success Rate(%)
+MO Short Message Attempts(Number)
+MO Short Message Success Times(Number)
+MT Short Message Attempts(Number)
+MT Short Message Success Times(Number)",,OVIM DM ADHOC,,SOC_WSA_RSAG_MM;Terrence Garcia De Vera,John Elvin Sy Tan,Terrence Garcia De Vera,,Data_Integrity59_01_01,activated counters in U2020.,,,
+SDT-20200707-00646,Severe |  Requests | Others | NA | N.A.,BusinessStatusResovled,running,2020-07-07 12:48:55,2020-08-03 14:17:06,,"For your checking and possible correction please of Device Id:
+ENM --- MTPG6192ERLT001
+SDM Device ID --- ENM_SOUTH:PRQG6192ERLT001",,OVIM DM ADHOC,Janssen Marco P. Bueno;OVIM_NOM_USA_OSS,OPM_RAN_GMM_South;Rosco Kristine Garcia,Jesus Nino Mina,Rosco Kristine Garcia,,Others60_01_01,This device is in the datahub MTPG6192ERLT001 please check,,,"the team not handling SDM nor SID RAN.
+
+HI USA OSS team, for your checking please."
+SDT-20200707-00747, |  Complaint |  |  | ,BusinessStatusResovled,running,2020-07-07 13:59:32,2020-08-01 19:18:14,,No WO ticket ID generated on CR-20200703-00412.,,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Lyra Pe?acerrada Abijan;NOC_CNCC,Noriel Fabellon Espiritu,Lyra Pe?acerrada Abijan,,,Device is not active during the creation of CR,"The device is now active in datahub, please recreate the CR",,for your checking po
+SDT-20200707-01268, |  Others |  |  | ,Transferred,running,2020-07-07 17:18:17,2020-08-01 09:15:29,,"Sir/Ma'am, for your assistance please. Observe missing logs po in User Plane Record Query vs Manual Service Test. See attach sample MIN 9183370752 (July3). For 20 trials only 3 successful logs verified po. Thank you.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,OVIM_NOM_USA_CEM,Janssen Marco P. Bueno,Angelo John Josol Villamor,,,,,,for your proper handling po
+SDT-20200707-01707, |  Others |  |  | ,BusinessStatusCompleted,completed,2020-07-07 21:19:54,2020-08-05 15:41:50,2020-08-05 15:41:49,"Hi Partners, 
+
+For your checking please  if issue is still related to nm probe utilization. degraded stats in CEM  Credit control SR for Initial/Update Request and sudden increased of  Re-Authentication Request SR (Decreased of Request ) Gx Interface started 0200H. Per initial checking  no sudden increased of failures in Credit Control but with decreased in Request and Success Times.As per PACO,  no noted outage or activity from our side which may caused possible probing issue on CEM. Per checking in U2020 (directly on node), no dips in mentioned SRs were observed. Please refer to attached FYR.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Princess Dainne F Dahilig,Princess Dainne F Dahilig,,,Congestion-related,"As the util of the probes in NM are critically high, packet losses are observed which contributes to the abnormal trend. This is caused by the overloaded probes in NM. No immediate workaround at this time. New equipment needed to augment the capacity which will come with Project eSA. Kindly accept trend and observe for now.",Normalized ao 07/10 2100H . ,for your proper handling po
+SDT-20200708-00203,Moderate |  Complaint | Ticket Creation | TX | MIN,BusinessStatusResovled,running,2020-07-08 09:21:31,2020-07-27 18:22:27,,Error on creating CR due to unavailable data of my supervisor's and manager's name on the box provided,,OVIM DM ADHOC;OVIM_NOM_USA_OSS,,NFS_MIN_A1_WFS1_TDAG;Roberto Jr. Galano Cena,Juan Paulo Medina,Roberto Jr. Galano Cena,,W_SC_MC1_TicketCreation,resolved,already ok,,
+SDT-20200708-00431, |  Reports | CS Core Report | Usage | ,BusinessStatusResovled,running,2020-07-08 09:56:42,2020-07-24 09:03:03,,"Missing erlang traffic 2G, 3G, 5 and 7 on nokia MSCs @0100H and 2300H",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Ryan Ramiro Maala David;SOC_NSA_DM,Juan Paulo Medina,Ryan Ramiro Maala David,,CS_Core_Report36_01_01,resolved,resolved,,"per last update, ok in netact side"
+SDT-20200708-00777, |  Requests | Data Integrity | Missing Hours | ,BusinessStatusResovled,running,2020-07-08 11:48:17,2020-07-14 16:04:39,,"May we request for your assistance re missing stats/incomplete data on PM for the ff. reports which started Jul7 21H-23H.
+
+Report Name
+ATS
+ATS cause code
+ATS rates",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,SOC_WSA_RSAG_MM;Terrence Garcia De Vera,Juan Paulo Medina,Terrence Garcia De Vera,,Data_Integrity59_01_01,resolved,already ok,,for possible reprocessing in PM side.
+SDT-20200708-00884, |  Complaint | Ticket Creation |  | ,BusinessStatusResovled,running,2020-07-08 12:43:46,2020-08-14 16:12:52,,"Issue on CR ticket creation. Assign to Supervisor and Copy to Manager tab observed to have unknown data input. Thus, can not proceed in Ticket creation. Please see attached screenshot.",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Arvin Jay Policher;NFS_MIN_A3_WFS10_DIP,Juan Paulo Medina,Arvin Jay Policher,,W_SC_MC1_TicketCreation,resolved,already have a supervisor and manager,,for your proper handling please
+SDT-20200708-01240, |  Reports | CS Core Report |  | ,BusinessStatusCompleted,completed,2020-07-08 15:32:05,2020-07-15 10:55:35,2020-07-15 10:55:34,"Missing data in IMS SMS MO and MT, please see attached file",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,,Dee Alfie Sebastian,Dee Alfie Sebastian,,CS_Core_Report36_01_01,resolved,already ok,resolve,For your checking po
+SDT-20200709-01021, |  Complaint |  |  | ,BusinessStatusResovled,running,2020-07-09 16:31:33,2020-08-06 10:18:06,,"Incomplete extracted data on UNIBI > CR Monthly Report (May 2020). SDM CR Advanced Query=5,395 vs. UNIBI CR=4,668.",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Lyra Pe?acerrada Abijan;NOC_CNCC,John Hector Pascual Maslog,Lyra Pe?acerrada Abijan,,,Resolved,Data on May 2020 CR Monthly Report is now complete,,for your proper handling po
+SDT-20200709-01026, |  Requests | Data Integrity |  | ,Transferred,running,2020-07-09 16:34:38,2020-07-20 15:42:53,,Degraded Voice Traffic for BSC2407 & EB1420A,,OVIM_NOM_USA_OSS;OVIM DM ADHOC,JPBUENO,Janssen Marco P. Bueno,Jessica Galvez Belleza,Jahzeel Jane Itum Paring,,Data_Integrity59_01_01,,,,for checing on your side
+SDT-20200713-00081, |  Requests | Data Integrity | Missing Hours | ,BusinessStatusResovled,running,2020-07-13 08:24:41,2020-07-13 18:12:17,,Missing Pivot Data in USA PM for July 11 on nodes VIS2UGW01 and VIS2UGW02 @ 1500H-1800H.,,OVIM DM ADHOC,,BIANCA CAMILLE GAYOSO VASAYA;SOC_NSA_DM,Janssen Marco P. Bueno,BIANCA CAMILLE GAYOSO VASAYA,,Data_Integrity59_01_01,No action taken,Reason: NE outage as per Ma'am Bianca of Analytics,,
+SDT-20200713-00087, |  Requests | Data Integrity | Null | PS Core,BusinessStatusResovled,running,2020-07-13 08:34:52,2020-08-04 21:38:05,,Incomplete Paco EPG data via ENIQ for July 12 on nodes SFLU03835SS001 (@1400H-1600H and 2000H) & PG01PQE (@1400H-1600H).,,OVIM DM ADHOC,OVIM_NOM_NMS_EMS,BIANCA CAMILLE GAYOSO VASAYA;SOC_NSA_DM,Aurbrey Ivor Kenny Mangaring Lat,BIANCA CAMILLE GAYOSO VASAYA,,Data_Integrity59_01_01,for observation,,,for your checking po
+SDT-20200713-00975, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-07-13 16:00:59,2020-07-24 10:14:09,,"Hello All, 3G Cellcount with Traffic is degraded as of  July 12 (ERI)For your checking please",,OVIM DM ADHOC,,Erika Allyssa  Centeno;SOC_NSA_DM,Efreim Jude Pineda,Erika Allyssa  Centeno,,No_data,Data reprocessing,,,
+SDT-20200713-01175, |  Requests |  |  | ,BusinessStatusCompleted,completed,2020-07-13 17:15:38,2020-07-14 16:21:28,2020-07-14 16:21:27,May we request for the data extraction of the ATS counters starting Jul 7-Jul 13 (hourly data). Please see attach of counters for the ATS needed.,,OVIM DM ADHOC,,,Juan Paulo Medina,Juan Paulo Medina,,,Already provided the KPIs from U2020,,already ok,
+SDT-20200714-00210, |  Reports | CS Core Report | Usage | ,BusinessStatusResovled,running,2020-07-14 09:40:58,2020-07-16 19:12:50,,"missing erlang traffic 2g and and erlang traffic 3g @0200H July 13 from MS01E, ms02E, MS03E, and MSS18",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Ryan Ramiro Maala David;SOC_NSA_DM,Juan Paulo Medina,Ryan Ramiro Maala David,,CS_Core_Report36_01_01,resolved,already ok,,checked with raw files in PM server. for reprocessing please.
+SDT-20200714-00490, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-07-14 11:44:32,2020-07-27 08:59:17,,"Hello All, CE Utilization Usage and Throughput is Degraded. It's possible to reprocess /retrieve the data? Kindly check details provided below. For your assistance please",,OVIM DM ADHOC,,Erika Allyssa  Centeno;SOC_NSA_DM,Efreim Jude Pineda,Erika Allyssa  Centeno,,No_data,Data reprocessed,,,
+SDT-20200714-00562,Minor |  Requests | Others | NA | N.A.,Transferred,running,2020-07-14 12:24:36,2020-08-04 07:53:15,,request for checking/ inclusion of LUC EPG IP address in FMA Continuity checking task,,OVIM DM ADHOC,OVIM DM ADHOC;Marie Antoinette Malong Amora,Marie Antoinette Malong Amora;OVIM DM ADHOC,Libiran Daryl Audrey C.,Marie Antoinette Malong Amora,,Others60_01_01,,,,"Below IPs are S1 interfaces of EPG. Could you provide us the IP of FMA for ping/traceroute in EPG.
+
+EPG1 Lucena 10.158.167.49
+EPG2 Lucena 10.158.167.97"
+SDT-20200714-00678, |  Requests | No data |  | ,Transferred,running,2020-07-14 13:40:44,2020-08-13 16:13:17,,"Hello partners, Attached is the list of cells for 3G with NO STATS/ ZERO TRAFFIC but found in NOC ASSET INVENTORY LIST (ON AIRED) As of Week 27,  2423 sites (20060 cells) are listed for 3G. For your checking please. Thanks.",,OVIM DM ADHOC,OVIM DM ADHOC,OVIM DM ADHOC,Aurbrey Ivor Kenny Mangaring Lat,Erika Allyssa  Centeno,,No_data,,,,For Unsync kindly verify if with TT-WO with L1 Access
+SDT-20200714-01560, |  Others |  |  | ,BusinessStatusCompleted,completed,2020-07-14 19:42:26,2020-08-05 16:09:02,2020-08-05 16:09:01,"Hi OVIM Partners,
+
+May we request for your assistance please on validation of the monitored sudden degradation on Gy Credit Control Success Rate for Initial/Update Request(%) of nm2UGW02_4G. This started today July 14, 2020 around 0530H. Upon demarcation, with increase in 9000 Timeout failure cause. Based on checking of NOC in U2020 directly on node, no dips are currently observed and has been on its normal trend. 
+
+For your further checking please.
+
+Please see attachment for your reference.
+
+Thank you.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Grethel Marrie Aceron Giray,Grethel Marrie Aceron Giray,,,Congestion-related,"As the util of the probe in NM2 is critically high, packet losses are observed which then enables the 9000 timeouts. This is caused by the overloaded probe in NM2. No immediate workaround at this time. New equipment needed to augment the capacity which will come with Project eSA. Kindly accept trend and observe for now.","As the util of the probe in NM2 is critically high, packet losses are observed which then enables the 9000 timeouts. This is caused by the overloaded probe in NM2. No immediate workaround at this time. New equipment needed to augment the capacity which will come with Project eSA. Kindly accept trend and observe for now.",For handling by CEM
+SDT-20200715-00951, |  Others |  |  | ,BusinessStatusCompleted,completed,2020-07-15 15:32:11,2020-07-22 13:38:42,2020-07-22 13:38:40,"Observed erratic trend for DNS Query SR, TCP Connection Request Count and Effective Volume Nationwide happening every 08:15pm-12:00mn. As per NOC, ""Noted on the trend in CEM but per checking directly on nodes, no discrepancies are observed for these KPIs. Trend is normal in U2020."" For checking and data validation please if this erratic trend is possible due to probe issue. Thank you.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Princess Dainne F Dahilig,Jay Ann R Cordova,,,Congestion-related,"Please note that nine out of the twelve Pivot probes are overloaded at this time. There is a noted significant increase in 9000 timeouts in our probes, particularly during peak hours as demonstrated, which are caused by said overloading thereby enabling below erratic trend. We are currently working to remediate at least three of the probe sites to lower the utilization. In the meantime, please accept the trend, since our efforts will be a little delayed amid the ongoing pandemic/crisis, as it involves shipping equipment in our regional sites to augment the capacity. Rest assured that we are on top of this.","Congestion-related
+Please note that nine out of the twelve Pivot probes are overloaded at this time. There is a noted significant increase in 9000 timeouts in our probes, particularly during peak hours as demonstrated, which are caused by said overloading thereby enabling below erratic trend. We are currently working to remediate at least three of the probe sites to lower the utilization. In the meantime, please accept the trend, since our efforts will be a little delayed amid the ongoing pandemic/crisis, as it involves shipping equipment in our regional sites to augment the capacity. Rest assured that we are on top of this.",For handling by CEM
+SDT-20200716-00697, |  Others |  |  | ,BusinessStatusCompleted,completed,2020-07-16 14:23:26,2020-08-05 16:10:30,2020-08-05 16:10:29,"Hi OVIM Partners,
+
+May we request for your usual assistance please on checking the observed intermittent dips on Gx CCR SR and Gx RAR SR of sm1UGW01_4G and sm2UGW01_4G. Upon checking, with decrease in Total Request Times which include Success and Failure Times. This was also observed on Gy interface SRs. Based on checking of NOC partners in U2020, GX ang GY SRs are in normal trend.
+
+Please see attachment for your reference.
+
+For your further checking please.
+
+Thank you.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Grethel Marrie Aceron Giray,Grethel Marrie Aceron Giray,,,Congestion-related,"As the util of the probe in SM1 was critically high, packet losses were observed that contributed to this degradation. Should be okay now since capacity at SM1 probe was expanded last July 16x17. Both probes in SM would have been affected.","As the util of the probe in SM1 was critically high, packet losses were observed that contributed to this degradation. Should be okay now since capacity at SM1 probe was expanded last July 16x17. Both probes in SM would have been affected.",for your proper handling po
+SDT-20200716-00692, |  Reports |  | QOS/KPI | ,Transferred,running,2020-07-16 14:31:18,2020-07-16 15:55:04,,Missing IP POOL CAPACITIES  in pivot nodes and other corporate apns from ericsson GGSNS,,OVIM DM ADHOC,OVIM DM ADHOC,OVIM DM ADHOC,Juan Paulo Medina,Ryan Ramiro Maala David,,,,,,Kindly update po the IP pool Inventory. 
+SDT-20200716-00775, |  Others |  |  | ,Transferred,running,2020-07-16 14:47:58,2020-07-16 15:41:51,,"Hi OVIM Partners,
+
+Requesting for your assistance for the following issue:
+No CEM data queried for 3G (Voice/Data/SMS) for 28 Minicipalities in Pangasinan from May 04 to present.
+
+#	Municipality:
+1	Aguilar
+2	Alcala
+3	Asingan
+4	Balungao
+5	Basista
+6	Bautista
+7	Bayambang
+8	Binalonan
+9	Binmaley
+10	Bugallon
+11	Labrador
+12	Laoac
+13	Lingayen
+14	Manaoag
+15	Natividad
+16	Pozorrubio
+17	Rosales
+18	San Carlos City
+19	San Manuel
+20	San Nicolas
+21	San Quintin
+22	Santa Maria
+23	Santo Tomas
+24	Tayug
+25	Umingan
+26	Urbiztondo
+27	Urdaneta City
+28	Villasis",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,OVIM_NOM_USA_CEM,Janssen Marco P. Bueno,Malou B. Quiambao,,,,,,For your checking po
+SDT-20200717-00439, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-07-17 12:04:30,2020-07-20 10:08:27,,"Affected templates:
+2G_CELL_BH_NEW
+2G_CELL_DY
+ERI CP-HR
+ERI CP-HR RADIONODE
+ERI CP-HR RADIONODE_Part2",,OVIM DM ADHOC;OVIM_NOM_USA_OSS,OVIM_NOM_USA_OSS,Jahzeel Jane Itum Paring;SOC_NSA_DM,Juan Paulo Medina,Jahzeel Jane Itum Paring,,No_data,resolved,already ok,,Caused by current PM issue. For handling by USA.
+SDT-20200717-00477, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-07-17 12:35:43,2020-07-24 08:40:21,,"Hello All, As of today No Output in PM USA
+
+Affected Templates For 3G: 
+
+BHD_HUA
+BHD_ERI_NOK_OTHERS
+BHV_HUA
+BHV_ERI_NOK_OTHERS
+TEST_DWA
+ERI_TPUT
+HUA_TPUT
+NOK_TPUT
+OTHERS_TPUT",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Erika Allyssa  Centeno;SOC_NSA_DM,Juan Paulo Medina,Erika Allyssa  Centeno,,No_data,resolved,"Already check the task po in the PM USA, it already have a data po . Kindly reprocess the task one at a time to prevent the overload in PM replied in email @ 13:42H",,Caused by current PM issue. For handling by USA.
+SDT-20200717-01253, |  Reports | CS Core Report | Usage | ,BusinessStatusResovled,running,2020-07-17 19:12:39,2020-07-24 08:42:25,,"Missing erlang traffic 5,7,2G and 3G on all Nokia switches @0800H and 1000H and in all Huawei switches @0900h and 1100H.",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Ryan Ramiro Maala David;SOC_NSA_DM,Juan Paulo Medina,Ryan Ramiro Maala David,,CS_Core_Report36_01_01,resolved,"Already have data for Jul 19 , previous date cant retrieve data bec of the raw file retention",,For reprocessing
+SDT-20200720-00158, |  Requests | Data Integrity | Sudden Spike/Decline | Access,BusinessStatusResovled,running,2020-07-20 09:55:08,2020-07-24 10:38:35,,"As of July 16, LTE ERI Traffic and cell count degraded.",,OVIM DM ADHOC,OVIM_NOM_NMS_EMS,SOC_NSA_DM;Shannen Andrea Cruz Pecho,Aurbrey Ivor Kenny Mangaring Lat,Shannen Andrea Cruz Pecho,,Data_Integrity59_01_01,"Deep analysis and troubleshooting, collecting logs, restart pmserve and mspm",,,For handling by EMS
+SDT-20200720-00227, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-07-20 10:18:58,2020-07-24 10:43:59,,"Hello All,We have filed a ticket for our concern. 3G Voice Traffic (ERI) , Data Traffic (ERI) ,Cell count (ERI)  and HSDPA/HSUPA Users degraded as of July 17 and still degrading. Specifically for areas SL an NL. For your checking please.Thank you.",,OVIM DM ADHOC,OVIM_NOM_NMS_EMS,Erika Allyssa  Centeno;SOC_NSA_DM,Aurbrey Ivor Kenny Mangaring Lat,Erika Allyssa  Centeno,,No_data,"Deep analysis and troubleshooting, collecting logs, restart pmserve and mspm",,,For handling by EMS
+SDT-20200720-00322, |  Others |  |  | ,BusinessStatusCompleted,completed,2020-07-20 11:35:46,2020-08-09 14:43:16,2020-08-09 14:43:15,"Seeking for your assistance please.
+No Data is found when querying CDRs from Cause Analysis.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Joselle Bolisay Bondoc,Joselle Bolisay Bondoc,,,Data update done,,CDRs available,For handling by CEM
+SDT-20200720-01310, |  Others |  |  | ,BusinessStatusCompleted,completed,2020-07-20 19:49:43,2020-08-05 15:33:40,2020-08-05 15:33:39,"Hi partners, 
+Requesting for your assistance please for checking if with activity on your side or if related to any probe issue  . Seen degradation in  sm2UGW01 Gx Interface Re Authentication Request SR started 1430H 07/17. per initial checking decreased of Request and success  but no increased in failure. Per PACO, no monitored alarms/outages that may cause this degradation in cem. Also , based on U2020, SR were monitored in normal trend.. Please see attached FYR.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Princess Dainne F Dahilig,Princess Dainne F Dahilig,,,Activity-related,July 16x17 CEM MBB SEQ Capacity Expansion. This sometimes happens while data is being correlated and adjusted after an activity.,"
+Back to normal trend",for your proper handling po
+SDT-20200721-00121, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-07-21 09:05:32,2020-08-14 12:10:58,,"Hello All, As of July 20, there are still 191 NodeBs that No IuB Stats for Vendor ERI and has payload. Kindly see attached file. Thanks.",,OVIM DM ADHOC,,Erika Allyssa  Centeno;SOC_NSA_DM,Efreim Jude Pineda,Erika Allyssa  Centeno,,No_data,Ticket closure was requested. ,,,
+SDT-20200721-01134, |  Reports | PS Core Report | QOS/KPI | ,BusinessStatusResovled,running,2020-07-21 16:27:50,2020-07-21 18:39:17,,Missing 2300H on min2DRA01_SPS:0,,OVIM DM ADHOC,,Ryan Ramiro Maala David;SOC_NSA_DM,John Elvin Sy Tan,Ryan Ramiro Maala David,,PS_Core_Report39_01_01,min2DRA01 has been uninstalled already with reference CR: CR-20200717-00369 OVIM TCM | CloudOpera Orchestrator uninstall MIN2DRA,,,
+SDT-20200721-01161, |  Reports | PS Core Report | QOS/KPI | ,BusinessStatusResovled,running,2020-07-21 16:32:35,2020-07-22 17:10:08,,"Incomplete hours on  ATS BASIC Service, all hours are missing except 0400H",,OVIM DM ADHOC,,Ryan Ramiro Maala David;SOC_NSA_DM,John Elvin Sy Tan,Ryan Ramiro Maala David,,PS_Core_Report39_01_01,no action done,,,
+SDT-20200721-01522, |  Reports | CS Core Report | Subscribers | MSS,BusinessStatusResovled,running,2020-07-21 19:16:01,2020-07-22 10:03:22,,"Missing VLR stats for NSN MSCs, July 21, 1400H-present",,OVIM DM ADHOC,,Pamela Araojo Matienzo;SOC_NSA_DM,John Elvin Sy Tan,Pamela Araojo Matienzo,,CS_Core_Report36_01_01,no action taken,,,
+SDT-20200721-01562, |  Requests | Data Integrity | Missing Hours | ,BusinessStatusResovled,running,2020-07-21 19:16:34,2020-07-22 14:27:10,,Missing Baremetal and Pivot Data in USA PM for July 21 on all nodes at 1400H - present & NL1UGW02 at 0200H - present.,,OVIM DM ADHOC,,BIANCA CAMILLE GAYOSO VASAYA;SOC_NSA_DM,Efreim Jude Pineda,BIANCA CAMILLE GAYOSO VASAYA,,Data_Integrity59_01_01,Reprocessing of data,,,
+SDT-20200721-01579, |  Reports | CS Core Report | Usage | ,BusinessStatusResovled,running,2020-07-21 19:37:21,2020-07-22 14:24:47,,"Missing traffic erlang 5,7,2G and 3G starting 1400H onwards.",,OVIM DM ADHOC,,Ryan Ramiro Maala David;SOC_NSA_DM,Efreim Jude Pineda,Ryan Ramiro Maala David,,CS_Core_Report36_01_01,Reprocessing of data,,,
+SDT-20200723-01267, |  Reports | CS Core Report |  | ,BusinessStatusResovled,running,2020-07-23 19:04:39,2020-08-03 10:18:56,,"Missing erlang traffic 5,7,2G and 3G in all mscs on July 23 1400H-1600H",,OVIM DM ADHOC,OVIM DM ADHOC,Ryan Ramiro Maala David;SOC_NSA_DM,Efreim Jude Pineda,Ryan Ramiro Maala David,,CS_Core_Report36_01_01,Counter activation in U2020 side,,,For your counter checking po in the countrer
+SDT-20200724-00280,Low |  Requests | Ticket Creation | NA | N.A.,BusinessStatusClosed,completed,2020-07-24 10:05:09,2020-07-28 10:59:25,,Requesting to transfer site ownership of M2322 Malalag Talaytay to NFS_MIN_A2_WFS6_GSAN. Site was under NFS_MIN_A2_WFS6_GSAN AOR already. Thanks,,OVIM DM ADHOC,,,Janssen Marco P. Bueno,Berlin Jade Lupase Fabio,,Ticket_Creation55_01_01,,,,
+SDT-20200724-00324, |  Others |  |  | ,BusinessStatusReTroubleshoot,running,2020-07-24 10:20:36,2020-08-11 12:36:57,2020-08-11 12:36:56,"For your checking please. No data on created template namely ""HQ_Failure_4G_S1MME"" involing S1-MME Attach Failure Times(times). Previously we were able to query data from said template po.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,OVIM DM ADHOC,Sonny Boy Ratilla Buenavista,Sonny Boy Ratilla Buenavista,,,Completed,Activated some tasks and was able to successfully query even without using the specific app name and table name.,,For handling by CEM
+SDT-20200724-01353, |  Requests | Data Integrity | Missing Hours | CS Core,BusinessStatusResovled,running,2020-07-24 17:57:49,2020-07-27 17:30:50,,See attached photo for details,,OVIM DM ADHOC,,Pamela Araojo Matienzo;SOC_NSA_DM,Efreim Jude Pineda,Pamela Araojo Matienzo,,Data_Integrity59_01_01,No data (Activity related CR-20200721-00644),,,
+SDT-20200727-00190, |  Requests | Data Integrity | Missing Hours | CS Core,BusinessStatusResovled,running,2020-07-27 10:02:47,2020-07-27 17:31:26,,"Missing 3am data for MS01D, July 24. Please see attached photo for details. Thank you.",,OVIM DM ADHOC,,Pamela Araojo Matienzo;SOC_NSA_DM,Efreim Jude Pineda,Pamela Araojo Matienzo,,Data_Integrity59_01_01,No data (Activity related CR-20200721-00644),,,
+SDT-20200727-00760, |  Requests | Data Integrity | Missing Hours | CS Core,BusinessStatusResovled,running,2020-07-27 15:30:56,2020-07-30 17:17:53,,See attached files for details. Thank you.,,OVIM DM ADHOC,,Pamela Araojo Matienzo;SOC_NSA_DM,Janssen Marco P. Bueno,Pamela Araojo Matienzo,,Data_Integrity59_01_01,restart of PMService in U2020 for huawei. and ongoing investigation on NE side for nokia.,,,
+SDT-20200727-01290,Minor |  Requests | Others | NA | N.A.,BusinessStatusResovled,running,2020-07-27 18:36:41,2020-08-01 13:41:33,,"Change default group from OPSG_SFEM_FacOps_MM to OPSG_SFEM_FacOps_NL
+Due to transfer of area of responsibility from Metro Manila to North Luzon last March 16, 2020",,OVIM DM ADHOC;OVIM_NOM_NMS_EMS,OVIM_NOM_USA_OSS;Noriel Fabellon Espiritu,OPSG_SFEM_FacOps_MM;ROMUALDO TAMAYO,Noriel Fabellon Espiritu,ROMUALDO TAMAYO,,Others60_01_01,User account modification should be file via onehub,Please file a request on onehub,,"For closing, user account modification should be file via onehub"
+SDT-20200729-01557, |  Others |  |  | ,BusinessStatusCompleted,completed,2020-07-29 22:03:10,2020-07-30 20:33:32,2020-07-30 20:33:32,"Hi Partners, 
+
+Requesting for your assistance please for checking on monitored sudden degradation in nm2UGW Gx Interface Credit Control For Initial Request and Update Request SR. Last 07/24 coinciding to said degradation is S1-MME Attach SR in nm2 USN (normalized 07/28), gradually normalizing ao 07/24 2000H) and Gy Interface Re Authentication SR and Gx RAR SR in (normalized same day 1400H 07/24) but degradation already normalized. S1-MME Attach SR has corresponding TT that possible related to CR-20200720-00477 PS-20-07077 New TAC-LAC Definition for RNC2206 or  CR-20200701-00154 EOR Software and Patch Upgrade (nm2eSight). With this possible that Gx Interface CCR I/U Degradation in nm2UGW  is not related to S1-MME Attach SR Degradation. Failure cause for nm2UGW  CCR-I/U is 9000 Timeout . For your checking please is still related to probe utilization  issue. Moreover if with resolution done ao 2015H since SR already normalized. Thank you",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Princess Dainne F Dahilig,Princess Dainne F Dahilig,,,Capacity-related,"There were no activities done on NM probes and CEM SEQ side that could enable the degradation. As observed, 9000 timeouts being the main cause, this is due to probe overloading. Probes at NM have been at critical capacity, particularly significant during peak hours, since early this year and have no immediate workaround (e9000s there are already at maximum configuration) but to await the new equipment to be purchased alongside Project eSA.","There were no activities done on NM probes and CEM SEQ side that could enable the degradation. As observed, 9000 timeouts being the main cause, this is due to probe overloading. Probes at NM have been at critical capacity, particularly significant during peak hours, since early this year and have no immediate workaround (e9000s there are already at maximum configuration) but to await the new equipment to be purchased alongside Project eSA.",For handling by CEM
+SDT-20200730-00172, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-07-30 08:25:46,2020-07-30 18:17:07,,"Hello Partners, As of July 29 HS TRAFFIC, VOICE TRAFFIC, HSDPA/HSUPA USERS in NL (ERI) is degraded. For your checking please. Thank you!",,OVIM DM ADHOC,OVIM_NOM_NMS_EMS,Erika Allyssa  Centeno;SOC_NSA_DM,Aurbrey Ivor Kenny Mangaring Lat,Erika Allyssa  Centeno,,No_data,activated in RNCs profile,,,For your checking po
+SDT-20200730-00204, |  Requests | Data Integrity | Sudden Spike/Decline | Access,BusinessStatusResovled,running,2020-07-30 08:41:22,2020-08-04 21:28:21,,LTE NL Traffic and Users Degraded as of July 29,,OVIM DM ADHOC,OVIM_NOM_NMS_EMS,SOC_NSA_DM;Shannen Andrea Cruz Pecho,Aurbrey Ivor Kenny Mangaring Lat,Shannen Andrea Cruz Pecho,,Data_Integrity59_01_01,troubleshooting,,,for your checking of the ENM NL server 10.150.14.34
+SDT-20200730-01475, |  Requests | Data Integrity | Missing Hours | CS Core,BusinessStatusResovled,running,2020-07-30 18:31:55,2020-08-03 13:44:38,,Please see attached photo for details.,,OVIM DM ADHOC,,Pamela Araojo Matienzo;SOC_NSA_DM,Efreim Jude Pineda,Pamela Araojo Matienzo,,Data_Integrity59_01_01,Data reprocessing,,,
+SDT-20200731-00282, |  Others |  |  | ,BusinessStatusResovled,running,2020-07-31 10:19:47,2020-08-03 10:36:06,,"HI OVIM Partners, 
+Good Day!
+
+Observed degradation on DNS Query Success Rate for Mindanao started 07/31 0615H, trend still not back to normal. For your kind checking please. 
+For your verification if this is activity related.
+
+Thank you.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,SOC_WSA_RSAG_MIN;Von Cupher Luna Andoy,Santiago Rickie Bryan L,Von Cupher Luna Andoy,,,Activity-related,This is related to CEM PH3 link cutover last July 30x31.,,for your checking po
+SDT-20200801-01252, |  Others |  |  | ,BusinessStatusResovled,running,2020-08-01 17:26:02,2020-08-13 15:26:22,2020-08-13 00:20:33,"For checking please on observed alarm ID 3159 SCTP ASSOCIATION LOST active in NetAct EMS but cleared in FM. 
+
+As sampled on node MS01B in NetAct, there are 4 instances of 3159 SCTP ASSOCIATION LOST alarm from 08/01 0000H to present, in which 3 out of 4 of those alarms were already cleared. 
+
+Checking in history alarms in FM under the same node MS01B, with one instance of 3159 SCTP ASSOCIATION LOST, which was already cleared.
+
+Attached historical alarms logs from FM and NetAct EMS (containing also active alarm).",,OVIM DM ADHOC,OVIM_NOM_NMS_EMS,Bordios  Arvin D;NOC_NAC_NSC,Aurbrey Ivor Kenny Mangaring Lat,Bordios  Arvin D,,,Done,"truncate alarms, restart fmpipe",,For handling by EMS. Reoccurred issue.
+SDT-20200803-00324, |  Others |  |  | ,BusinessStatusProcessing,running,2020-08-03 11:25:14,2020-08-03 13:29:02,,"PIVOT VNF DISPATCH FAILED 
+
+For your assistance please, encountering dispatch failed error when creating semi-auto ticket for PIVOT VNF NEs.
+
+
+ticketfailedreason: [OSS/J TT Client Adapter][OSS/J TT Server Adapter]07140717:The current Option of Device is inactive.",,OVIM DM ADHOC,,OVIM DM ADHOC,Dennis Turla Jumarang,John Dale Bencito Mendoza,,,,,,
+SDT-20200803-00359, |  Others |  |  | ,BusinessStatusProcessing,running,2020-08-03 11:31:36,2020-08-03 13:27:48,,"PIVOT INFRA DISPATCH FAILED
+
+FYA . Encountering dispatch failed error when creating semi-auto TT for Pivot INFRA NEs.
+
+ticketfailedreason: [OSS/J TT Client Adapter][OSS/J TT Server Adapter]07140717:The current Option of Device is inactive.",,OVIM DM ADHOC,,OVIM DM ADHOC,Dennis Turla Jumarang,John Dale Bencito Mendoza,,,,,,
+SDT-20200803-00384, |  Others |  |  | ,BusinessStatusProcessing,running,2020-08-03 11:34:23,2020-08-03 13:22:09,,"FALCON INFRA DISPATCH FAILED
+
+FYA . Encountering dispatch failed error when creating semi-auto ticket for FALCON INFRA NEs.",,OVIM DM ADHOC,,OVIM DM ADHOC,Dennis Turla Jumarang,John Dale Bencito Mendoza,,,,,,
+SDT-20200803-00597, |  Requests | Data Integrity | Null | CS Core,BusinessStatusResovled,running,2020-08-03 13:52:55,2020-08-04 14:10:13,,"Missing VLR per LACCI data for MS01E
+Please see below KKPI details. Thank you.
+
+KPI Name:
+Number of Local Subscribers (GCI)
+Number of Power-off Subscriber (GCI)
+Number of Roaming Subscribers (GCI)
+
+MO Domain: MBB-Huawei Vendor Core Domain
+MO Type: Huawei_MSC_Server_GCI
+KPI Set: Traffic Measurement for GCI",,OVIM DM ADHOC,,Pamela Araojo Matienzo;SOC_NSA_DM,John Elvin Sy Tan,Pamela Araojo Matienzo,,Data_Integrity59_01_01,enabled measurement objects of the counters involved.,,,
+SDT-20200805-00146, |  Reports | Access Report |  | ,BusinessStatusProcessing,running,2020-08-05 08:37:59,2020-08-05 10:32:27,,Missing/No Traffic LTE Sites that have On-Air status,,OVIM DM ADHOC,,OVIM DM ADHOC,Janssen Marco P. Bueno,Shannen Andrea Cruz Pecho,,Access_Report35_01_01,,,,
+SDT-20200805-01309, |  Complaint |  |  | ,BusinessStatusReTroubleshoot,running,2020-08-05 17:22:45,2020-08-18 21:09:23,2020-08-18 21:09:22,"incomplete extracted data on UNIBI > CR Monthly Report (July 2020). SDM CR Advanced Query=6,776 vs. UNIBI CR=1,744.",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,OVIM DM ADHOC,Lyra Pe?acerrada Abijan,Lyra Pe?acerrada Abijan,,,Resolved,Already provide by huawei,,For handling by USA
+SDT-20200806-01192, |  Requests | Data Integrity | Missing Hours | ,BusinessStatusResovled,running,2020-08-06 18:13:22,2020-08-07 12:20:36,,Missing Baremetal Data in USA PM for Aug 6 on all nodes in Baremetal Data at 1400H - present.,,OVIM DM ADHOC,OVIM_NOM_NMS_EMS,BIANCA CAMILLE GAYOSO VASAYA;SOC_NSA_DM,Aurbrey Ivor Kenny Mangaring Lat,BIANCA CAMILLE GAYOSO VASAYA,,Data_Integrity59_01_01,caused by ENM ENIQ SL firmware upgrde. For your observation,,,for your assistance po
+SDT-20200807-00396, |  Requests | Data Integrity | Null | PS Core,BusinessStatusResovled,running,2020-08-07 10:30:51,2020-08-07 12:21:40,,"Incomplete Paco EPG data via ENIQ for August 6 on the ff nodes:
+1. GH05071SS002, LCN00K95SS001, SFLU03835SS001, LCN00K95SS002, PG01PQE and PG01GHE at 1400H
+2. LCN00K95SS001, SFLU03835SS001 and SFLU03835SS002 at 1300H",,OVIM DM ADHOC,OVIM_NOM_NMS_EMS,BIANCA CAMILLE GAYOSO VASAYA;SOC_NSA_DM,Aurbrey Ivor Kenny Mangaring Lat,BIANCA CAMILLE GAYOSO VASAYA,,Data_Integrity59_01_01,caused by ENM ENIQ SL firmware upgrde. For your observation,,,for your proper handling po.
+SDT-20200807-00836, |  Requests | Data Integrity | Missing Hours | CS Core,BusinessStatusResovled,running,2020-08-07 13:13:42,2020-08-07 17:36:33,,Please see attached photo for details. Thank you.,,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Pamela Araojo Matienzo;SOC_NSA_DM,Juan Paulo Medina,Pamela Araojo Matienzo,,Data_Integrity59_01_01,resolved,already ok,,for your assistance po
+SDT-20200807-00835, |  Others |  |  | ,BusinessStatusCompleted,completed,2020-08-07 14:01:28,2020-08-12 21:30:42,2020-08-12 21:30:42,"Hi Partners,
+Requesting for your assistance please for checking on shift of E-RAB Set up  Request NW. Last 07/30 0200H with sudden decreased of Request but as per PACO with Per NOC, no noted outage or activity in PACO on the said time of degradation . With this is the given shifts affected by any given CEM activity or any other activity in CEM? Please see attached FYR please. Thank you.",,OVIM DM ADHOC,OVIM_NOM_USA_CEM,,Princess Dainne F Dahilig,Princess Dainne F Dahilig,,,Capacity-related,"As for the latest CEM activity for the date in question, we have cutover of additional links to CDO probe(Jul30x31), and Cebu (Aug 3x4). This caused further overload on the probes thereby affecting data capture. We?re already working on the probe overload concern.
+
+Since additional data is being captured (w/ additional loss due to overload), this will affect the trends. Please observe for now.","As for the latest CEM activity for the date in question, we have cutover of additional links to CDO probe(Jul30x31), and Cebu (Aug 3x4). This caused further overload on the probes thereby affecting data capture. We?re already working on the probe overload concern.
+
+Since additional data is being captured (w/ additional loss due to overload), this will affect the trends. Please observe for now.",for your proper handling po
+SDT-20200810-00104, |  Requests | Data Integrity | Sudden Spike/Decline | Access,BusinessStatusResovled,running,2020-08-10 08:37:16,2020-08-12 10:46:57,,"LTE Traffic and Users Degraded as follows:
+
+MM, SL, NL, MIN-as of August 8
+VIS - as of August 6
+
+Cell count also degraded as of August 8 for vendor Huawei",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,SOC_NSA_DM;Shannen Andrea Cruz Pecho,Juan Paulo Medina,Shannen Andrea Cruz Pecho,,Data_Integrity59_01_01,resolved,already ok,,For reprocessing
+SDT-20200810-00168, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-08-10 09:24:41,2020-08-12 14:56:58,,"PM-USA affected templates:
+2G_CELL_BH_NEW
+2G_CELL_DY",,OVIM_NOM_USA_OSS;OVIM DM ADHOC,,Jahzeel Jane Itum Paring;SOC_NSA_DM,Juan Paulo Medina,Jahzeel Jane Itum Paring,,No_data,resolved,already ok,,
+SDT-20200810-00224, |  Requests | No data |  | ,BusinessStatusResovled,running,2020-08-10 09:55:27,2020-08-12 10:45:12,,"Hello Partners, We observed the  3G degradation and No data output in PM USA. For your assistance please
+
+*Degradation for User and Traffic*
+
+ 
+Users- August 6 VIS & SL
+Data Traffic- August 6 VIS only
+No data in PMUSA- August 7-9",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Erika Allyssa  Centeno;SOC_NSA_DM,Juan Paulo Medina,Erika Allyssa  Centeno,,No_data,resolved,already ok,,For reprocessing
+SDT-20200810-00324, |  Reports | CS Core Report | Usage | ,BusinessStatusResovled,running,2020-08-10 10:39:19,2020-08-11 15:48:21,,"Missing Erlang Traffic 2G,3G,5,7 on Aug 8 and 9 (details of the missing hours in email)",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Ryan Ramiro Maala David;SOC_NSA_DM,Juan Paulo Medina,Ryan Ramiro Maala David,,CS_Core_Report36_01_01,resolved,already ok,,For reprocessing
+SDT-20200810-00349, |  Requests | Data Integrity | Missing Hours | ,BusinessStatusResovled,running,2020-08-10 10:48:47,2020-08-12 09:40:28,,Missing Baremetal and Pivot Data in USA PM from Aug 7 to 9 on several baremetal and pivot nodes.,,OVIM DM ADHOC,OVIM_NOM_USA_OSS,BIANCA CAMILLE GAYOSO VASAYA;SOC_NSA_DM,Juan Paulo Medina,BIANCA CAMILLE GAYOSO VASAYA,,Data_Integrity59_01_01,resolved,already have data,,For reproxessing
+SDT-20200810-00350, |  Requests | Data Integrity | Missing Hours | CS Core,BusinessStatusResovled,running,2020-08-10 10:55:17,2020-08-11 15:21:45,,Please see attached photo for details. thank you.,,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Pamela Araojo Matienzo;SOC_NSA_DM,Juan Paulo Medina,Pamela Araojo Matienzo,,Data_Integrity59_01_01,resolved,already ok,,For reprocessing
+SDT-20200810-00445, |  Complaint |  |  | ,BusinessStatusResovled,running,2020-08-10 11:41:40,2020-08-11 15:23:17,,CR-20200803-00134 doesn?t have values on Total Risk Score and Approval Required by fields,,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Lyra Pe?acerrada Abijan;NOC_CNCC,Jesus Nino Mina,Lyra Pe?acerrada Abijan,,,Resolved,Please check on your end,,"for your proper handling, please."
+SDT-20200810-00722, |  Reports | PS Core Report | Subscribers | ,BusinessStatusResovled,running,2020-08-10 13:39:46,2020-08-12 08:50:24,,Missing Ericson SGSN attached subs on Aug 8 and 9 (details in the email),,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Ryan Ramiro Maala David;SOC_NSA_DM,Juan Paulo Medina,Ryan Ramiro Maala David,,PS_Core_Report39_01_01,resolved,already ok,,For reprocessing
+SDT-20200810-01192, |  Reports | PS Core Report | QOS/KPI | ,BusinessStatusResovled,running,2020-08-10 16:49:10,2020-08-13 14:00:41,,Missing VUPCC and VDRA stats (details in email),,OVIM DM ADHOC,OVIM_NOM_USA_OSS,Ryan Ramiro Maala David;SOC_NSA_DM,Juan Paulo Medina,Ryan Ramiro Maala David,,PS_Core_Report39_01_01,resolved,already have data,,For reprocessing
+SDT-20200811-00599, |  Requests | No data |  | ,BusinessStatusHandling,running,2020-08-11 11:45:16,2020-08-11 11:45:19,,LTE NEs found in NOC ASSET INVENTORY but have NO STATS/ZERO TRAFFIC as of August 5.,,OVIM DM ADHOC,,OVIM DM ADHOC,Shannen Andrea Cruz Pecho,Shannen Andrea Cruz Pecho,,No_data,,,,
+SDT-20200811-01484, |  Requests |  |  | ,Transferred,running,2020-08-11 17:07:14,2020-08-12 17:56:06,,Requesting for correction of site 515033AAFCF2E BSC2903 - not in North Luzon Area,,OVIM DM ADHOC,OVIM_NOM_USA_CEM,OVIM_NOM_USA_CEM,Dennis Turla Jumarang,Katrina Gurnote Dinsay,,,,,,CEM issue. 
+SDT-20200814-00504, |  Requests | No data |  | ,EscalatedtoVendor,running,2020-08-14 12:01:53,2020-08-14 16:28:12,,"BSC EB1122A degraded/no stats since Aug-6
+Cell/Site count also degraded since aug-7 (vendor ERI)",,OVIM DM ADHOC;OVIM_NOM_USA_OSS,,Juan Paulo Medina;OVIM_NOM_USA_OSS,Juan Paulo Medina,Jahzeel Jane Itum Paring,,No_data,,,,
+SDT-20200814-01191, |  Requests | Data Integrity | Sudden Spike/Decline | Access,BusinessStatusResovled,running,2020-08-14 16:56:20,2020-08-14 17:51:48,,LTE Backhaul Traffic degraded for vendor Huawei as of August 6,,OVIM DM ADHOC,,SOC_NSA_DM;Shannen Andrea Cruz Pecho,Dennis Turla Jumarang,Shannen Andrea Cruz Pecho,,Data_Integrity59_01_01,"For U2000, we have network connectivity issue started on Aug 6 and restored on Aug 7 the reason that?s why we have a missing data.",Resolved Aug 7,,
+SDT-20200819-00199, |  Requests | Data Integrity | Missing Hours | ,Transferred,running,2020-08-19 09:24:24,2020-08-19 10:53:43,,"Missing Baremetal Data in USA PM on nodes CEBU_GGSN02BHW, GHL-GGSN and PQUE-GGSN at 1800H - 1900H.",,OVIM DM ADHOC,OVIM_NOM_USA_OSS,OVIM_NOM_USA_OSS,Janssen Marco P. Bueno,BIANCA CAMILLE GAYOSO VASAYA,,Data_Integrity59_01_01,,,,for your reprocessing please
+SDT-20200819-00230, |  Requests | Data Integrity | Null | CS Core,BusinessStatusProcessing,running,2020-08-19 09:44:26,2020-08-19 10:54:11,,see attached photo for details,,OVIM DM ADHOC,,OVIM DM ADHOC,Janssen Marco P. Bueno,Pamela Araojo Matienzo,,Data_Integrity59_01_01,,,,
+SDT-20200819-00982, |  Requests | Counter Activation | CS Core | MSS,Transferred,running,2020-08-19 15:16:20,2020-08-19 15:45:32,,Please see attached file for details. Thank you.,,OVIM DM ADHOC,OVIM_NOM_USA_OSS,OVIM_NOM_USA_OSS,Janssen Marco P. Bueno,Pamela Araojo Matienzo,,Counter_Activation57_01_01,,,,for your proper handling please
